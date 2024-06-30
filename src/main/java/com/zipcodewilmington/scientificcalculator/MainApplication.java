@@ -80,7 +80,7 @@ public class MainApplication {
 //            return inRad;
 //        }
 
-//    public static double arccos(double a){ //sin method
+    //    public static double arccos(double a){ //sin method
 //        double inRad = Math.acos(a); //calculate sin automatically in radian
 //        double inDeg = Math.toRadians(a); // convert degree input into radian
 //        Scanner radDeg = new Scanner(System.in);
@@ -100,27 +100,53 @@ public class MainApplication {
 //        return inRad;
 //    }
 //
-    public static double arctan(double a) { //sin method
-        double inRad = Math.atan(a); //calculate sin automatically in radian
-        double inDeg = Math.toRadians(a); // convert degree input into radian
-        Scanner radDeg = new Scanner(System.in);
-        System.out.println("Display in Radians: R \nDisplay in Degrees: D"); //Ask user if the want display in Radians or degrees
-        String entry = radDeg.nextLine();
-        if (entry.equalsIgnoreCase("R")) {  //conditional statement based on user response
-            System.out.println(inRad);
-        } else if (entry.equalsIgnoreCase("D")) {
-            System.out.println(Math.atan(inDeg)); //convert radians back to degrees
-        } else {
-            System.out.println("ERR");
-        }//print
-        return inRad;
-    }
+//    public static double arctan(double a) { //sin method
+//        double inRad = Math.atan(a); //calculate sin automatically in radian
+//        double inDeg = Math.toRadians(a); // convert degree input into radian
+//        Scanner radDeg = new Scanner(System.in);
+//        System.out.println("Display in Radians: R \nDisplay in Degrees: D"); //Ask user if the want display in Radians or degrees
+//        String entry = radDeg.nextLine();
+//        if (entry.equalsIgnoreCase("R")) {  //conditional statement based on user response
+//            System.out.println(inRad);
+//        } else if (entry.equalsIgnoreCase("D")) {
+//            System.out.println(Math.atan(inDeg)); //convert radians back to degrees
+//        } else {
+//            System.out.println("ERR");
+//        }//print
+//        return inRad;
+////    }
+//    public static void convertToInt(double a){
+//        int intValue = (int) Math.round(a);
+//        String binary = Integer.toBinaryString(intValue);
+//        String octal = Integer.toOctalString(intValue);
+//        String hex = Integer.toHexString(intValue);
+//
+//        System.out.println(binary);
+//        System.out.println(octal);
+//        System.out.println(hex);
+//    }
+////
+
 
     public static void main(String[] args) {
-            arctan(.5);
+        Scanner smile = new Scanner(System.in);
+        String emoji = smile.nextLine();
+        if (emoji.equals(":)") || emoji.equals("(:")) {
+            System.out.println("\uD83D\uDE42");
+        } else if (emoji.equals(":(") || emoji.equals("):")) {
+            System.out.println("\u2639");
+            }
+        else if (emoji.equals(";)") || emoji.equals("(;")) {
+            System.out.println("\uD83D\uDE09");
+        }
+        else if (emoji.equals("<3")) {
+        System.out.println("\u2764\uFE0F");
+        }
+        else System.out.println("");
+        System.out.println("");
+        }
     }
-    
-           }
+
 
 
 //        public static int factorial(int n){
@@ -134,18 +160,8 @@ public class MainApplication {
 //        }
 //    }
 //}
-//    public static double switchDisplayMode(double a);{
-//        System.out.println("Please choose your Display Mode:\n 1. Decimal\n2. Binary\n3.Octal\n4. Hex");
-//        Scanner displayMode = new Scanner(System.in);
-//        String input = displayMode.nextLine();
-//        int toInt = input.
-//        int mode;
-//        switch (mode) {
-//            case 1: display;
-//            break;
-//            case 2:
-//
-//        }
+
+
 
 
 
