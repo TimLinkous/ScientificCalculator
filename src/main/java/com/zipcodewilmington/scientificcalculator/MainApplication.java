@@ -127,38 +127,35 @@ public class MainApplication {
 //    }
 ////
 
-
+    //
     public static void main(String[] args) {
-        Scanner smile = new Scanner(System.in);
-        String emoji = smile.nextLine();
-        if (emoji.equals(":)") || emoji.equals("(:")) {
-            System.out.println("\uD83D\uDE42");
-        } else if (emoji.equals(":(") || emoji.equals("):")) {
-            System.out.println("\u2639");
+//        Scanner smile = new Scanner(System.in);
+//        String emoji = smile.nextLine();
+//        if (emoji.equals(":)") || emoji.equals("(:")) {
+//            System.out.println("\uD83D\uDE42");
+//        } else if (emoji.equals(":(") || emoji.equals("):")) {
+//            System.out.println("\u2639");
+//        } else if (emoji.equals(";)") || emoji.equals("(;")) {
+//            System.out.println("\uD83D\uDE09");
+//        } else if (emoji.equals("<3")) {
+//            System.out.println("\u2764\uFE0F");
+//        } else System.out.println("");
+//        System.out.println("");
+//    }
+
+
+        public static int factorial(int n){
+
+            int sum = 1;
+            for (int i = 1; i <= n; i++) {
+                sum *= i;
             }
-        else if (emoji.equals(";)") || emoji.equals("(;")) {
-            System.out.println("\uD83D\uDE09");
-        }
-        else if (emoji.equals("<3")) {
-        System.out.println("\u2764\uFE0F");
-        }
-        else System.out.println("");
-        System.out.println("");
+            System.out.println(sum);
+            return sum;
         }
     }
+}
 
-
-
-//        public static int factorial(int n){
-//
-//            int sum = 1;
-//            for (int i = 1; i <= n; i++) {
-//                sum *= i;
-//            }
-//            System.out.println(sum);
-//            return sum;
-//        }
-//    }
 //}
 
 

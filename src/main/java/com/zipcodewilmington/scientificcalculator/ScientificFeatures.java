@@ -106,7 +106,8 @@ public class ScientificFeatures {
         }//print
         return inRad;
     }
-    public static void convertToInt(double a){
+
+    public static void convertToInt(double a) {
         int intValue = (int) Math.round(a);
         String binary = Integer.toBinaryString(intValue);
         String octal = Integer.toOctalString(intValue);
@@ -117,34 +118,38 @@ public class ScientificFeatures {
         System.out.println(hex);
     }
 
-
-Scanner smile = new Scanner(System.in);
-String emoji = smile.nextLine();
-        if (emoji.equals(":)") || emoji.equals("(:")) {
-        System.out.println("\uD83D\uDE42");
-        } else if (emoji.equals(":(") || emoji.equals("):")) {
-        System.out.println("\u2639");
-            }
-                    else if (emoji.equals(";)") || emoji.equals("(;")) {
-        System.out.println("\uD83D\uDE09");
-        }
-                else if (emoji.equals("<3")) {
-        System.out.println("\u2764\uFE0F");
-        }
-                else System.out.println("");
-        System.out.println("");
-        }
-
 //
-//    public static int factorial(int n){
-//
-//        int sum = 1;
-//        for (int i = 1; i <= n; i++) {
-//            sum *= i;
-//        }
-//        System.out.println(sum);
-//        return sum;
+//    Scanner smile = new Scanner(System.in);
+//    String emoji = smile.nextLine();
+//        if(emoji.equals(":)")||emoji.equals("(:")){
+//        System.out.println("\uD83D\uDE42");
 //    }
+//        else if(emoji.equals(":(")||emoji.equals("):")){
+//        System.out.println("\u2639");
+//    }
+//        else if(emoji.equals(";)")||emoji.equals("(;")){
+//        System.out.println("\uD83D\uDE09");
+//    }
+//        else if(emoji.equals("<3"))
+//    {
+//        System.out.println("\u2764\uFE0F");
+//    }
+//        else System.out.println("");
+//        System.out.println("");
+//
+
+    //
+    public static int factorial(int n) {
+
+        int sum = 1;
+        for (int i = 1; i <= n; i++) {
+            sum *= i;
+        }
+        System.out.println(sum);
+        return sum;
+    }
+}
+
 
 
 
